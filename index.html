@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 1 - FrontEnd</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="nome">
+        <h3>Nome:</h3>
+        <input type="text" id="input_nome">
+    </div>
+
+    <div id="curso">
+        <h3>Curso:</h3>
+        <select name="curso" id="cursos_select">
+            <option value="ADS">ADS</option>
+            <option value="SI">SI</option>
+            <option value="CC">CC</option>
+        </select>
+    </div>
+
+    <div id="genero">
+        <h3>Genero:</h3>
+        <div>
+            <input type="radio" value="Masculino" name="genero"><label for="genero">Masculino</label>
+            <input type="radio" value="Feminino" name="genero"><label for="genero">Feminino</label>
+            <input type="radio" value="Outros" name="genero"><label for="genero">Outros</label>
+        </div>
+
+    </div>
+
+    <div id="convidado">
+        <h3>Convidados</h3>
+        <input type="text" disabled value="0" id="input_convidado">
+        <button onclick="mais()">+</button>
+        <button onclick="menos()">-</button>
+    </div>
+
+    <div id="botoes">
+        <button onclick="adicionar()">Adicionar</button>
+        <button onclick="exibir()">Exibir Lista</button>
+        <button onclick="limpar()">Limpar Lista</button>
+    </div>
+
+    <div id="resultado">
+        
+    </div>
+
+
+</body>
+
+</html>
