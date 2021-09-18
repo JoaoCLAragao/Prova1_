@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+*{margin: 0;
+padding: 0;
+background-color: aqua;
+font-family: 'Bonheur Royale', cursive;
+font-size: 30px;
+}
+
+#nome {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+
+#nome input {
+    margin-left: 10px;
+    background-color: white;
+}
+
+
+#curso{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#curso select{
+    margin-left: 10px;
+    background-color: white;
+}
+
+#genero{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#genero #generoBotoes{
+    display: flex;
+    align-items: center;
+}
+
+#genero #generoBotoes input{
+    margin-left: 10px;
+}
+
+#convidado{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#convidado input{
+    margin-left: 10px;
+    background-color: white;
+}
+
+#convidado button{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    background-color: white;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#botoes button{
+    margin: 10px;
+    background-color: white;
+}
+
+#resultado{
+    margin-left: 50px;
+    margin-top: 10px;
+}

@@ -84,5 +84,6 @@ function exibir() {
 
 function limpar(){
     localStorage.clear()
+    document.getElementById("resultado").innerHTML = ""
 }
 
